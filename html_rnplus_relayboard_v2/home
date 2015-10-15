@@ -1,0 +1,42 @@
+<!DOCTYPE html><html>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>RN+ WiFi switch</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'><link href='style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class='header'>
+  <img class='float_left' src='logo.png' />
+  <div class='float_left'><h1><span class='logo1'>R</span>N+</h1><h2>WiFi switch</h2></div>
+  <div class='float_right'>
+    <a href='/'>HOME</a>
+    <a href='/schedule'>SCHEDULE</a>
+    <a href='/settings'>SETTINGS</a>
+    <a href='/documentation'>DOCUMENTATION</a>
+  </div>
+</div>
+
+<div class='mobile_menu'>
+  <a href='/'>HOME</a>
+  <a href='/schedule'>SCHEDULE</a>
+  <a href='/settings'>SETTINGS</a>
+  <a href='/documentation'>DOCUMENTATION</a>
+</div>
+
+<div id='notsetupwarning' class='home warning %hidewarning%''>
+<div class='row'><div class='left'>This device has not yet been set-up!</div>
+  <div class='right'><a class='button' href='/settings'>Go to settings</a></div>
+</div>
+</div>
+
+<div class='home' style='margin-top: 50px;'>
+  <div class='row'><div class='left'>Temperature</div><div class='right'>%temperature% &deg;c</div></div>
+  <div class='row'><div class='left'>Air pressure</div><div class='right'>%pressure% kPa</div></div>
+  <div class='row'><div class='left'>Local time</div><div class='right'>%hour%:%minute%:%second%</div></div>
+  <div class='row'><div class='left'>Output 1</div><div class='right'>%output1%</div></div>
+  <div class='row'><div class='left'>Output 2</div><div class='right'>%output2%</div></div>
+  <div class='row'><div class='left'>Output 3</div><div class='right'>%output3%</div></div>
+</div>
+</body>
+</html>

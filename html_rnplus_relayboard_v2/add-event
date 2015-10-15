@@ -1,0 +1,37 @@
+<!DOCTYPE html><html>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Add event - Schedule - RN+ WiFi switch</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'><link href='style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class='header'>
+  <img class='float_left' src='logo.png' />
+  <div class='float_left'><h1><span class='logo1'>R</span>N+</h1><h2>WiFi switch</h2></div>
+  <div class='float_right'>
+    <a href='/'>HOME</a>
+    <a href='/schedule'>SCHEDULE</a>
+    <a href='/settings'>SETTINGS</a>
+    <a href='/documentation'>DOCUMENTATION</a>
+  </div>
+</div>
+
+<div class='mobile_menu'>
+  <a href='/'>HOME</a>
+  <a href='/schedule'>SCHEDULE</a>
+  <a href='/settings'>SETTINGS</a>
+  <a href='/documentation'>DOCUMENTATION</a>
+</div>
+
+<div class='home' style='margin-top: 50px'>
+  <div class='row'><h2>Create a new event</h2></div>
+  <div class='row'><div class='left'>Name</div><div class='right'><input type='text' name='name' value='' /></div></div>
+  <div class='row'><div class='left'>Trigger</div><div class='right'>&nbsp;</div></div>
+  <div class='row'><div class='left'>Action</div><div class='right'>&nbsp;</div></div>
+  <div class='row'><div class='left'>Limit event to time</div><div class='right'>&nbsp;</div></div>
+  <div class='row'><div class='left'>&nbsp;</div><div class='right'><button type='submit' class='button'>Create</button></div></div>
+</div>
+
+</body>
+</html>
